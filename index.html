@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student project demonstrating website development and deployment using GitHub and Vercel.">
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="container">
+      <span class="eyebrow">WEB DEVELOPMENT PRACTICAL</span>
+      <h1>Welcome to My First Website</h1>
+      <p>Learning Website Development and Deployment</p>
+      <a class="primary-link" href="#about">Explore the Project</a>
+    </div>
+  </header>
+
+  <nav class="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">MyFirstWebsite</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">ABOUT THIS PROJECT</span>
+        <h2>A simple website, built step by step</h2>
+        <p>This project demonstrates how HTML, CSS and JavaScript work together to create a responsive website that can be published online.</p>
+      </div>
+      <div class="info-card">
+        <div class="icon">01</div>
+        <div>
+          <h3>What is website deployment?</h3>
+          <p>Website deployment is the process of publishing a website so that people can access it through the internet. In this practical, GitHub stores the project files and Vercel publishes the website.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">PROJECT FEATURES</span>
+          <h2>Three technologies working together</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">HTML</span>
+            <h3>Structure</h3>
+            <p>HTML creates the content and structure of the webpage.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">CSS</span>
+            <h3>Design</h3>
+            <p>CSS controls colours, spacing, typography and layout.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">JS</span>
+            <h3>Interaction</h3>
+            <p>JavaScript adds actions and interactive behaviour.</p>
+          </article>
+        </div>
+        <div class="demo-panel">
+          <div>
+            <span class="eyebrow">LIVE INTERACTION</span>
+            <h3>Test the JavaScript button</h3>
+            <p>Click the button to display a message on this page.</p>
+          </div>
+          <div class="demo-action">
+            <button id="messageButton" type="button">Click Me</button>
+            <p id="message" class="message" aria-live="polite">Your message will appear here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-card">
+        <span class="eyebrow">CONTACT</span>
+        <h2>Thank you for visiting</h2>
+        <p>This sample contact section is included as part of the website deployment practical.</p>
+        <a href="mailto:student@example.com">student@example.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>My First Website</span>
+      <span>Created as a Website Deployment Practical Project</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
